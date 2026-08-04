@@ -1,0 +1,276 @@
+<h1 id="mike-rodgers">Mike Rodgers</h1>
+<p><strong>Forward Deployed Engineer · Deployment Strategist ·
+Enterprise AI Solutions Architect</strong></p>
+<p>Denver, CO · <a href="tel:+12623435680">262.343.5680</a> · <a
+href="mailto:mrodgersjs@gmail.com">mrodgersjs@gmail.com</a> · <a
+href="https://github.com/mrodgersjs-web">GitHub</a> · <a
+href="https://rodgersintelligence.com/">rodgersintelligence.com</a></p>
+<hr />
+<h2 id="summary">Summary</h2>
+<p>Forward-deployed engineer who embeds with enterprise customers and
+owns AI deployments end to end — discovery and scoping, solution design,
+integration against production systems over REST APIs and webhooks,
+guardrails, evaluation, and the release gates that keep them
+running.</p>
+<p>Hands-on daily in <strong>Python</strong> and
+<strong>TypeScript</strong>: operates a production multi-agent platform
+in daily use — 56 routes (31 Next.js/React pages, 23 TypeScript APIs),
+1,147 Python modules, 159 test suites, Postgres with row-level security,
+and a promote-on-pass ingestion pipeline that ships unattended.</p>
+<p>Fifteen years delivering technology into regulated healthcare
+enterprises, including <strong>both seats of the same
+deployment</strong> — bought and integrated a clinical telehealth
+platform as the health-system operator, then later deployed it as the
+vendor.</p>
+<hr />
+<h2 id="selected-engineering-artifacts">Selected engineering
+artifacts</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Artifact</th>
+<th>What it proves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/proof-studio"><strong>proof-studio
+/ rigforge</strong></a></td>
+<td>ProofPacket verification layer (MIT, Python) — agent “done” is
+cryptographically re-verifiable (CLI, MCP, signed ledger, OTel).</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/mesh-studio"><strong>mesh-studio</strong></a></td>
+<td>Multi-service agent orchestrator — boot/supervise with health checks
+and bounded restart.</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/proof-studio"><strong>rig-deterministic-build-starter</strong></a>
+(via proof-studio)</td>
+<td>Vite + TypeScript starter that ships with a sealed, hash-verifiable
+ProofPacket.</td>
+</tr>
+<tr>
+<td>Live operator platform</td>
+<td>Authenticated multi-role ops dashboard; Postgres RLS;
+unauthenticated health returns <strong>401</strong> by design.</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/jake-studio"><strong>jake-studio</strong></a></td>
+<td>Local-first operator layer + L10 harness + Builder≠Verifier closed
+loops.</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/fde-portfolio"><strong>fde-portfolio</strong></a></td>
+<td>Discovery → eval → handoff playbooks for customer-facing AI
+implementation.</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 60-second proof (do not take the resume&#39;s word)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/mrodgersjs-web/proof-studio.git</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> proof-studio/packages/rigforge <span class="kw">&amp;&amp;</span> <span class="ex">pip</span> install <span class="at">-e</span> . <span class="kw">&amp;&amp;</span> <span class="ex">rigforge</span> demo</span></code></pre></div>
+<hr />
+<h2 id="core-competencies">Core competencies</h2>
+<p><strong>Build</strong> - Python &amp; TypeScript production services
+- REST APIs, webhooks, OAuth, idempotency - LLM &amp; multi-agent
+systems (RAG, tool calling) - React, Next.js &amp; operator-facing UIs -
+Docker, Kubernetes &amp; self-hosted inference - Postgres, pgvector,
+row-level security - Data pipelines &amp; schema validation - CI/CD,
+GitHub Actions, release gates - Cloud: AWS, Azure, OCI, Cloudflare</p>
+<p><strong>Deploy</strong> - Enterprise integration (EHR, CRM, ITSM) -
+Customer-embedded discovery &amp; scoping - Solution design &amp;
+guardrail architecture - Ambiguous / undefined problem spaces -
+Evaluation harnesses &amp; acceptance gates - Observability
+(OpenTelemetry, traces, logs) - PII handling &amp; regulated-environment
+compliance - Production debugging &amp; incident response - Executive
+&amp; clinical stakeholder translation</p>
+<hr />
+<h2 id="experience">Experience</h2>
+<h3 id="founder-forward-deployed-engineer-2025-current">Founder &amp;
+Forward Deployed Engineer · 2025 – Current</h3>
+<p><strong>Rodgers Intelligence Group</strong> · Denver, CO</p>
+<ul>
+<li>Build and operate a production multi-agent platform in daily use —
+56 routes (31 Next.js/React pages, 23 TypeScript API routes), 1,147
+Python modules and 159 test suites across 244k lines — deployed on
+Vercel behind an authenticated session layer and used by a live operator
+every day.</li>
+<li>Engineered the data layer end to end: Postgres via PostgREST with
+row-level security, a single-flight read cache that coalesces concurrent
+requests behind one query, and a schema-validated ingestion pipeline
+that promotes a new corpus only after a six-check gate passes, then
+deploys itself.</li>
+<li>Authored Model Context Protocol servers (555- and 276-line
+implementations with a dedicated test suite) and integrated 48 external
+tool servers behind a single orchestration and permission layer, giving
+agents governed access to enterprise systems.</li>
+<li>Built a three-layer build gate — data validation, test global-setup,
+and change verification — that blocks a bad release before it reaches
+production; it fired in production and stopped a corrupt corpus from
+shipping.</li>
+<li>Operate a retrieval and knowledge layer over a 61,987-page /
+116,158-chunk corpus at 100% embedding coverage (Postgres + pgvector),
+under a single-writer source-of-truth contract with derived read-only
+indexes that prevent write conflicts across concurrent agents. Upstream
+contributor to the retrieval engine.</li>
+<li>Built and operate a four-node self-hosted AI compute fleet — Docker
+and Kubernetes, role-tiered by workload (light extraction, mid-tier
+structuring, heavy retrieval/synthesis), LAN-first with remote failover
+— so inference runs on owned hardware instead of per-token vendor
+spend.</li>
+<li>Consult as an embedded forward-deployed engineer for private-equity
+portfolio companies, healthcare organizations, and professional services
+firms — technical discovery, system integration, and handover of
+production workflows with measurable acceptance criteria and
+runbooks.</li>
+</ul>
+<h3
+id="senior-director-strategy-marketing-competitive-intelligence-2021-2026">Senior
+Director, Strategy, Marketing &amp; Competitive Intelligence · 2021 –
+2026</h3>
+<p><strong>Oracle (formerly Cerner)</strong></p>
+<ul>
+<li>Designed and ran an AI-powered competitive intelligence system
+processing 150+ daily competitor signals, replacing external consultants
+and driving measurable revenue growth across segments of a $6B+
+healthcare enterprise.</li>
+<li>Led enterprise AI adoption across telehealth, data analytics, and
+product roadmaps — deployed capability, not slideware.</li>
+<li>Supported post-acquisition integration following Oracle’s
+acquisition of Cerner, embedding AI as a core transformation driver
+across product and go-to-market teams.</li>
+</ul>
+<h3 id="vice-president-business-development-2020-2021">Vice President,
+Business Development · 2020 – 2021</h3>
+<p><strong>EmOpti, Inc.</strong></p>
+<ul>
+<li>Deployed a clinical telehealth platform into hospital environments
+as the <strong>vendor</strong> — the same platform previously bought,
+integrated, and operated from the health-system side (both seats of one
+enterprise deployment).</li>
+<li>Launched inpatient telehealth in partnership with Advocate Health,
+HCA, and Jefferson Memorial; owned technical scoping and integration
+through go-live.</li>
+<li>Delivered $1M in new revenue in year one and secured $10M Series A
+during COVID-19; scaled a stalled startup to 35% CAGR under peak-load
+conditions.</li>
+</ul>
+<h3 id="vp-commercial-strategic-innovation-2018-2020">VP, Commercial
+&amp; Strategic Innovation · 2018 – 2020</h3>
+<p><strong>Advocate Health (fka Aurora Healthcare)</strong></p>
+<ul>
+<li>Scaled the EmOpti teletriage deployment across 14 emergency
+departments; owned clinical-workflow integration across a multi-hospital
+system.</li>
+<li>Founded and scaled the 83 Tech Harbor subsidiary — recruited a
+30-person team, managed $27M budgets, directed $28M in venture
+investment at a projected 30% IRR.</li>
+<li>Architected growth plan to move revenue from $6B toward $25B+
+through major M&amp;A (Advocate + Atrium); presented to CEO and
+Board.</li>
+</ul>
+<h3 id="director-strategic-innovation-2016-2018">Director, Strategic
+Innovation · 2016 – 2018</h3>
+<p><strong>Advocate Health (fka Aurora Healthcare)</strong></p>
+<ul>
+<li>Owned the EmOpti deployment across five hospital systems from the
+<strong>customer</strong> side — cut ED wait times from 3 hours to 15
+minutes for 130,000+ patients; Emergency Care Innovation of the Year
+Award; $35M operating expense reduction.</li>
+<li>Built an innovation division from zero; launched five
+revenue-generating workstreams projected at $60M+ impact, including
+co-development of Babyscripts Care Navigator.</li>
+<li>Directed a $10M venture fund and co-launched the $100M Wisconn
+Valley Venture Fund with Northwestern Mutual and Foxconn.</li>
+</ul>
+<h3 id="business-innovation-manager-2014-2015">Business Innovation
+Manager · 2014 – 2015</h3>
+<p><strong>Advocate Health (fka Aurora Healthcare)</strong></p>
+<ul>
+<li>Scaled Babyscripts pediatric platform to 200K+ mothers; secured a
+$1M Noom partnership for Type 2 diabetes and hypertension tooling.</li>
+</ul>
+<h3 id="operations-improvement-manager-2013-2014">Operations Improvement
+Manager · 2013 – 2014</h3>
+<p><strong>Advocate Health (fka Aurora Healthcare)</strong></p>
+<ul>
+<li>Ran the operational-improvement program that first brought EmOpti
+into the health system — start of a platform relationship later owned
+from customer side and, at EmOpti, from vendor side.</li>
+</ul>
+<hr />
+<h2 id="education">Education</h2>
+<p><strong>B.S. Industrial Engineering</strong> — Iowa State University,
+Ames, IA<br />
+GPA 3.63 with Distinction</p>
+<h2 id="credentials">Credentials</h2>
+<p>Lean / Six Sigma Black Belt · Project Management Professional
+(PMP)</p>
+<h2 id="military-service">Military service</h2>
+<p><strong>United States Army</strong> — Sergeant, Counterintelligence
+&amp; Communications<br />
+Primary Leadership Development Course with Distinction; Primary
+Leadership Military Award</p>
+<hr />
+<h2 id="public-engineering-surface">Public engineering surface</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Studio</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/fde-portfolio">fde-portfolio</a></td>
+<td>Engagement playbooks</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/proof-studio">proof-studio</a></td>
+<td>False-done / ProofPackets</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/jake-studio">jake-studio</a></td>
+<td>Operator OS + L10</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/mesh-studio">mesh-studio</a></td>
+<td>Fleet control plane</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/agency-studio">agency-studio</a></td>
+<td>Role contracts</td>
+</tr>
+<tr>
+<td><a
+href="https://github.com/mrodgersjs-web/doctrine">doctrine</a></td>
+<td>Rules agents load</td>
+</tr>
+</tbody>
+</table>
+<p>Profile: <a
+href="https://github.com/mrodgersjs-web">github.com/mrodgersjs-web</a></p>
+<hr />
+<p><em>Source of truth for this resume: <code>RESUME.md</code>. Binary
+exports: <code>.docx</code> (original) and
+<code>Mike-Rodgers-Forward-Deployed-Engineer.pdf</code>.</em></p>
