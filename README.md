@@ -26,4 +26,6 @@ cd proof-studio/packages/rigforge && pip install -e . && rigforge demo
 
 - Email: mrodgersjs@gmail.com  
 - Phone: 262.343.5680  
+- LinkedIn: [https://www.linkedin.com/in/mike-rodgers-14416414/](https://www.linkedin.com/in/mike-rodgers-14416414/)
+- LinkedIn: https://www.linkedin.com/in/mike-rodgers-14416414/
 - Site: https://rodgersintelligence.com/  
