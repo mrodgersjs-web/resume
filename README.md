@@ -44,3 +44,9 @@ cd proof-studio/packages/rigforge && pip install -e . && rigforge demo
 | Fleet | [profile](https://github.com/mrodgersjs-web) · [resume](https://github.com/mrodgersjs-web/resume) · [patents](https://github.com/mrodgersjs-web/patents) |
 
 If `scripts/smoke.sh` fails, treat README claims as false until fixed.
+
+## Video walkthrough
+
+- [`assets/demo.mp4`](assets/demo.mp4)
+- ![preview](assets/demo.gif)
+
