@@ -28,4 +28,19 @@ cd proof-studio/packages/rigforge && pip install -e . && rigforge demo
 - Phone: 262.343.5680  
 - LinkedIn: [https://www.linkedin.com/in/mike-rodgers-14416414/](https://www.linkedin.com/in/mike-rodgers-14416414/)
 - LinkedIn: https://www.linkedin.com/in/mike-rodgers-14416414/
-- Site: https://rodgersintelligence.com/  
+- Site: https://rodgersintelligence.com/
+
+
+---
+
+## FDE bar (this studio)
+
+| Practice | Here |
+| --- | --- |
+| Employer summary | top of README |
+| Smoke proof | `bash scripts/smoke.sh` |
+| Public boundary | `docs/public-boundary.md` |
+| Claim under test | RESUME.md and PDF present |
+| Fleet | [profile](https://github.com/mrodgersjs-web) · [resume](https://github.com/mrodgersjs-web/resume) · [patents](https://github.com/mrodgersjs-web/patents) |
+
+If `scripts/smoke.sh` fails, treat README claims as false until fixed.
