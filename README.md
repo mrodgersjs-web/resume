@@ -1,6 +1,8 @@
 # Resume — Mike Rodgers
 
 **Forward Deployed Engineer**
+**Outcome:** Smoke enforces that RESUME.md and the PDF are present (2 of 3 resume formats verified) in a 60-second engineering proof.
+
 
 This repository is the public, versioned resume for hiring managers and technical leaders.
 
