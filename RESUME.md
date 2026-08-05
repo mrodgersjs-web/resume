@@ -2,7 +2,7 @@
 
 **Forward Deployed Engineer · Deployment Strategist · Enterprise AI Solutions Architect**
 
-Denver, CO · [262.343.5680](tel:+12623435680) · [mrodgersjs@gmail.com](mailto:mrodgersjs@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mike-rodgers-14416414/) · [GitHub](https://github.com/mrodgersjs-web) · [rodgersintelligence.com](https://rodgersintelligence.com/)
+Denver, CO · [262.343.5680](tel:+12623435680) · [mrodgersjs@gmail.com](mailto:mrodgersjs@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mikerodgers/) · [GitHub](https://github.com/mrodgersjs-web) · [rodgersintelligence.com](https://rodgersintelligence.com/)
 
 ---
 
