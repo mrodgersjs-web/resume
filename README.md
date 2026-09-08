@@ -2,6 +2,8 @@
 
 **Forward Deployed Engineer**
 **Outcome:** Smoke enforces that RESUME.md and the PDF are present (2 of 3 resume formats verified) in a 60-second engineering proof.
+[![smoke](https://img.shields.io/github/actions/workflow/status/mrodgersjs-web/resume/smoke.yml?branch=main)](https://github.com/mrodgersjs-web/resume/actions/workflows/smoke.yml)
+
 
 
 This repository is the public, versioned resume for hiring managers and technical leaders.
