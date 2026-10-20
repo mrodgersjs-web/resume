@@ -17,9 +17,11 @@ This repository is the public, versioned resume for hiring managers and technica
 ## 60-second engineering proof
 
 ```bash
-git clone https://github.com/mrodgersjs-web/proof-studio.git
-cd proof-studio/packages/rigforge && pip install -e . && rigforge demo
+git clone https://github.com/mrodgersjs-web/resume.git
+cd resume && bash scripts/smoke.sh
 ```
+
+For a working engineering demo, see [rigforge](https://github.com/mrodgersjs-web/rigforge): `pip install -e . && rigforge demo` catches a forged "build complete" claim.
 
 ## Profile & studios
 
